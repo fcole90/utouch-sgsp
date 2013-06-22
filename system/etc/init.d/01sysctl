@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+#Enhances system control
+echo "mounting"
+mount -o remount rw /system
+mount -o remount rw /
+
+sysctl -p
+ 
+# grep sysctl /etc/init.d/*
+# Load /sys/etc/sysctl.conf
+
+
+
+

@@ -1,0 +1,143 @@
+===================================
+Since Tue May 21 09:46:39 UTC 2013
+===================================
+
+   * frameworks/base
+73e2c7a Merge "Remove opaque check in GLRenderer when preparing dirty region." into cm-10.1
+3c6c126 Merge "Frameworks : FR translation" into cm-10.1
+
+   * packages/apps/Apollo
+a9edef5 Merge "Apollo: RU translation" into cm-10.1
+
+   * packages/apps/Camera
+fe83840 Merge "Camera: CS translation" into cm-10.1
+
+   * vendor/samsung
+d2cc5f8 qc: New C2D2 library
+
+   * vendor/sony
+6ed9d02 fusion3: update blob
+
+   * vendor/tmobile/providers/ThemeManager
+c584375 ThemeManager: RU translation
+
+===================================
+Since Mon May 20 09:25:30 UTC 2013
+===================================
+
+   * frameworks/base
+83a611a Merge "Pie Controls: Fix sound effects." into cm-10.1
+e54123c Merge "Pie Controls: Fix snap points position." into cm-10.1
+9e1aef7 Pie Controls: Fix sound effects.
+25f7f2e Pie Controls: Fix snap points position.
+
+   * hardware/samsung
+76ea68e Fix macloader buffer overflow
+
+   * packages/apps/Apollo
+e3547b0 Apollo: CS translation
+
+   * packages/apps/Camera
+7e72eb3 camera: add 1392x1392 resolution for galaxys s3 front cams
+
+===================================
+Since Sun May 19 11:05:44 UTC 2013
+===================================
+
+   * frameworks/base
+e29d7f0 Merge "SystemUI: Clean up old H+ drawables causing issues on manta" into cm-10.1
+
+   * vendor/sony
+e34d7bc fusion3: add common firmware
+58cfd8e odin: updated blob from 10.1.1.A.1.253
+60d5f61 yuga: updated blob from 10.1.1.A.1.253
+
+===================================
+Since Sat May 18 09:27:08 UTC 2013
+===================================
+
+   * frameworks/base
+4641ba2 Merge "Allow applications to show the navigation bar in expanded desktop mode." into cm-10.1
+b361aa8 Frameworks : FR translation
+d38bcc3 Merge "Fix up notification LED behaviour" into cm-10.1
+
+   * packages/apps/Apollo
+aca1fdc Apollo: RU translation
+
+   * packages/apps/Camera
+d07bdb1 Merge "Camera: ES translation" into cm-10.1
+6765c6c Merge "Camera: DA translation" into cm-10.1
+c02b20a Merge "Camera: Update exposure drawables to fix various problems" into cm-10.1
+
+   * packages/apps/DeskClock
+62934a1 DeskClock: Add support for XXHDPI devices (e.g. Galaxy S4 and HTC One)
+
+   * packages/apps/Mms
+bb0e314 Merge "Kill off use off FORCE_LED_WITH_SCREEN_OFF notification flag." into cm-10.1
+
+   * packages/apps/Phone
+3762329 Merge "Kill off use off FORCE_LED_WITH_SCREEN_OFF notification flag." into cm-10.1
+
+   * packages/apps/SamsungServiceMode
+72e86ef SamsungServiceMode: DA translation
+
+   * packages/apps/Settings
+b27c3ef Merge "Settings: ES translations" into cm-10.1
+8ce22f5 Settings: ES translations
+701558a Merge "Update German translation." into cm-10.1
+f8b41f6 Merge "Fix entering navbar editor in expanded desktop mode." into cm-10.1
+
+   * vendor/amazon
+21e75ee Merge pull request #1 from KFire-Android/cm-10.1
+
+   * vendor/sony
+6113aaf misc: remove unused file
+2401913 fusion: blue: cleanup
+
+===================================
+Since Fri May 17 08:24:50 UTC 2013
+===================================
+
+   * frameworks/base
+00dc95f Remove opaque check in GLRenderer when preparing dirty region.
+656d1a7 Allow applications to show the navigation bar in expanded desktop mode.
+
+   * frameworks/native
+36a29a6 Add heap configuration for 1080p phones with 2048m
+
+   * hardware/qcom/display-caf
+2f64a6b Revert "liboverlay : unset basepipe on overlay intialization."
+
+   * packages/apps/Apollo
+0466f85 Apollo: RU translation
+
+   * packages/apps/CMFileManager
+718f795 CMFileManager: ES translations
+
+   * packages/apps/CMUpdater
+bbf7987 Update German translation.
+
+   * packages/apps/Camera
+c3a4d74 Camera: ES translation
+
+   * packages/apps/Email
+a5ebedb Email: RU translation
+
+   * packages/apps/LockClock
+7e77483 LockClock : FR translation
+
+   * packages/apps/Settings
+5c2e660 Update German translation.
+5a94560 Fix entering navbar editor in expanded desktop mode.
+
+   * packages/apps/Trebuchet
+e0b248c Update German translation.
+
+   * vendor/samsung
+7aecdda hercules: Update to UVMC6
+08db5b6 galaxys2: update mali r3p1-01rel1 BUILD_DATE=Mon May 6 11:20:56 KST 2013
+1e9b984 exynos4412: update mali r3p1-01rel1 BUILD_DATE=Mon May 6 11:20:56 KST 2013
+
+   * vendor/tmobile/apps/ThemeChooser
+972d961 Merge "ThemeChooser: RU translation" into cm-10.1
+

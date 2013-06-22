@@ -1,0 +1,77 @@
+#!/system/bin/sh
+echo "0" > /proc/sys/net/ipv4/tcp_timestamps;
+echo "1" > /proc/sys/net/ipv4/tcp_tw_reuse;
+echo "1" > /proc/sys/net/ipv4/tcp_sack;
+echo "1" > /proc/sys/net/ipv4/tcp_tw_recycle;
+echo "1" > /proc/sys/net/ipv4/tcp_window_scaling;
+echo "5" > /proc/sys/net/ipv4/tcp_keepalive_probes;
+echo "30" > /proc/sys/net/ipv4/tcp_keepalive_intvl;
+echo "30" > /proc/sys/net/ipv4/tcp_fin_timeout;
+echo "404480" > /proc/sys/net/core/wmem_max;
+echo "404480" > /proc/sys/net/core/rmem_max;
+echo "256960" > /proc/sys/net/core/rmem_default;
+echo "256960" > /proc/sys/net/core/wmem_default;
+echo "4096,16384,404480" > /proc/sys/net/ipv4/tcp_wmem;
+echo "4096,87380,404480" > /proc/sys/net/ipv4/tcp_rmem;
+
+
+
+
+echo "3" > /proc/sys/vm/page-cluster;
+echo "0" > /proc/sys/vm/laptop_mode;
+echo "3000" > /proc/sys/vm/dirty_expire_centisecs;
+echo "500" > /proc/sys/vm/dirty_writeback_centisecs; 
+echo "40" > /proc/sys/vm/dirty_background_ratio; 
+echo "80" > /proc/sys/vm/dirty_ratio;
+echo "10" > /proc/sys/vm/vfs_cache_pressure; 
+echo "1" > /proc/sys/vm/overcommit_memory; 
+echo "0" > /proc/sys/vm/oom_kill_allocating_task; 
+echo "4096" > /proc/sys/vm/min_free_kbytes; 
+echo "0" > /proc/sys/vm/swappiness;
+echo "3" > /proc/sys/vm/drop_caches;
+echo "0" > /proc/sys/vm/panic_on_oom;
+echo "0" > /proc/sys/vm/oom_kill_allocating_task;
+echo "$vfs" > /proc/sys/vm/vfs_cache_pressure;
+echo "1" > /proc/sys/vm/overcommit_memory; 
+echo "4" > /proc/sys/vm/min_free_order_shift;
+echo "0" > /proc/sys/vm/block_dump;
+echo "1" > /proc/sys/vm/oom_dump_tasks;
+echo "$k_byte" > /proc/sys/vm/min_free_kbytes;
+echo "4096" > /proc/sys/vm/min_free_kbytes;
+echo "1500000" > /proc/sys/kernel/sched_min_granularity_ns;
+echo "500 512000 100 2048" > /proc/sys/kernel/sem;
+echo " 268435456 " > /proc/sys/kernel/shmmax; 
+echo "1024" > /proc/sys/kernel/msgmni; 
+echo "84000" > /proc/sys/kernel/msgmax;
+echo "32000" > /proc/sys/kernel/msgmni;
+echo "1000000" > /proc/sys/kernel/sched_latency_ns;
+echo "25000" > /proc/sys/kernel/sched_wakeup_granularity_ns
+;
+echo "0" > /proc/sys/kernel/sched_child_runs_first;
+echo "100000" > /proc/sys/kernel/sched_rt_period_us;
+echo "100000 " > /proc/sys/kernel/sched_min_granularity_ns;
+echo "95000" > /proc/sys/kernel/sched_rt_runtime_us;
+echo "0" > /proc/sys/kernel/randomize_va_space;
+echo "525810" > /proc/sys/kernel/threads-max;
+echo "512" > /proc/sys/kernel/random/write_wakeup_threshold;
+echo "256" > /proc/sys/kernel/random/read_wakeup_threshold;
+echo "24189" > /proc/sys/kernel/sched_features;
+echo "30" > /proc/sys/kernel/hung_task_timeout_secs;
+echo "5" > /proc/sys/kernel/panic;
+echo "1" > /proc/sys/kernel/panic_on_oops;
+echo "4096" > /proc/sys/kernel/shmmni;
+echo "16777216" > /proc/sys/kernel/shmall;
+echo "24189" > /proc/ sys/kernel/sched_features;
+echo "30" > /proc/sys/kernel/hung_task_timeout_secs;
+echo "1" > /proc/sys/kernel/sched_compat_yield;
+echo "256000" > /proc/sys/kernel/sched_shares_ratelimit;
+echo "525810" > /proc/sys/kernel/threads-max;
+echo "10" > /proc/sys/fs/lease-break-time;
+echo "65536" > /proc/sys/fs/file-max;
+echo "1053695" > /proc/sys/fs/nr_open;
+echo "32000" > /proc/sys/fs/inotify.max_queued_events;
+echo "256"> /proc/sys/fs/inotify.max_user_instances;
+echo "10240" > /proc/sys/fs/inotify.max_user_watches;
+
+
+

@@ -1,0 +1,3 @@
+#!/system/bin/sh
+/system/xbin/mkswap /dev/block/zram0
+/system/xbin/swapon /dev/block/zram0
